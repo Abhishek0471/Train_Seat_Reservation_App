@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
   
   res.send(
     `<u>
-      <h1 style="text-align:center;margin:50px;">Train Seats Reservation API</h1>
+      <h1 style="text-align:center;margin:60px;">Train Seats Reservation API</h1>
     </u>
     <h2 style="text-align:center;margin:50px;">
       GET : <a href="http://localhost:8080/seats"> /seats</a>
