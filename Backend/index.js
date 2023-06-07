@@ -13,6 +13,7 @@ app.use(express.json());
 app.use("/seats", seatsRouter);
 
 app.get("/", (req, res) => {
+  
   res.send(
     `<u>
       <h1 style="text-align:center;margin:50px;">Train Seats Reservation API</h1>
